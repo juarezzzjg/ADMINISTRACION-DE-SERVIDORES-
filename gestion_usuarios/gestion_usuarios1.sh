@@ -3,7 +3,7 @@
 ayuda() {
     echo "$(basename $0)"
     echo "Crea usuarios en el sistema de forma interactiva."
-    echo "Pide el nombre del usuario y una contrasena que cumpla ciertas reglas."
+    echo "Pide el nombre del usuario y una contrasena que cumpla ciertas reglas y la opcion de asignarle cuotas."
 }
 
 echo_error() {
